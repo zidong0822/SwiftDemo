@@ -96,4 +96,15 @@ if (enteredDoorCode && passedRetinaScan) || hasDoorKey || knowsOverridePassword 
 }
 
 
-print("df" > "de")
+var array = ["1", "2", "3"]
+print(array.joined(separator:""))
+import UIKit
+let queue = DispatchQueue(label:"com")
+queue.sync {
+    for i in 0..<10{
+        print("异步队列执行--",i)
+    }
+}
+for j in 0..<10{
+    print("同步主队列执行--",j)
+}

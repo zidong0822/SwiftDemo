@@ -24,6 +24,7 @@
 		589BB2DF22DF0DE600CAAA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		589BB2E522E01B0B00CAAA56 /* Base.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Base.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58FB9BDD22EEAE5A00FCF339 /* OperationalSymbol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OperationalSymbol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		58FB9BE022EFDF6C00FCF339 /* CharactersAndStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CharactersAndStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				589BB2DF22DF0DE600CAAA56 /* Info.plist */,
 				589BB2E522E01B0B00CAAA56 /* Base.playground */,
 				58FB9BDD22EEAE5A00FCF339 /* OperationalSymbol.playground */,
+				58FB9BE022EFDF6C00FCF339 /* CharactersAndStrings.playground */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
