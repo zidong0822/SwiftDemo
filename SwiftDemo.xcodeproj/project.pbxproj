@@ -25,6 +25,7 @@
 		589BB2DD22DF0DE600CAAA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		589BB2DF22DF0DE600CAAA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		589BB2E522E01B0B00CAAA56 /* Base.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Base.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		58F42BD122F926BE00325D4E /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58FB9BDD22EEAE5A00FCF339 /* OperationalSymbol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OperationalSymbol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58FB9BE022EFDF6C00FCF339 /* CharactersAndStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CharactersAndStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -70,6 +71,7 @@
 				58FB9BE022EFDF6C00FCF339 /* CharactersAndStrings.playground */,
 				5898B82322F7D9DF0037D3C8 /* Collection.playground */,
 				5898B82422F8069B0037D3C8 /* ControlFlow.playground */,
+				58F42BD122F926BE00325D4E /* Functions.playground */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
