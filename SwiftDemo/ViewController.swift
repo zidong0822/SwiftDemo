@@ -42,16 +42,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      //  print(calculate(a:2, b: 8))
-      //  print(sum(1,2,3,4))
-//        var shape = Shape(width: 10, side:10)
-//        test(&shape.girth)
-        //shape.show()
-        var set = Set<Int>()
-        set.insert(1)
-        set.insert(2)
-        set.insert(2)
-        print(set)
+//      //  print(calculate(a:2, b: 8))
+//      //  print(sum(1,2,3,4))
+////        var shape = Shape(width: 10, side:10)
+////        test(&shape.girth)
+//        //shape.show()
+//        var set = Set<Int>()
+//        set.insert(1)
+//        set.insert(2)
+//        set.insert(2)
+//        print(set)
+        let queue = DispatchQueue(label: "com.ffib.blog")
+        print("123")
+        queue.sync {
+            print("234")
+        }
+        print("456")
+        
         
     }
     
