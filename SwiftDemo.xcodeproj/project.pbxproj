@@ -17,6 +17,7 @@
 /* Begin PBXFileReference section */
 		5898B82322F7D9DF0037D3C8 /* Collection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Collection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5898B82422F8069B0037D3C8 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		589B092322FC08470045E17D /* Enumeration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumeration.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		589BB2D022DF0DE500CAAA56 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589BB2D322DF0DE500CAAA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		589BB2D522DF0DE500CAAA56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 				58F42BD122F926BE00325D4E /* Functions.playground */,
 				58F42BD222FA8E1C00325D4E /* GrandCentralDispatch.playground */,
 				58F42BD322FBD01400325D4E /* Closures.playground */,
+				589B092322FC08470045E17D /* Enumeration.playground */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
