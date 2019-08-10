@@ -18,6 +18,8 @@
 		5898B82322F7D9DF0037D3C8 /* Collection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Collection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5898B82422F8069B0037D3C8 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		589B092322FC08470045E17D /* Enumeration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumeration.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		589B092422FD14C80045E17D /* StructuresAndClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructuresAndClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		589B092522FEB93A0045E17D /* Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Properties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		589BB2D022DF0DE500CAAA56 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589BB2D322DF0DE500CAAA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		589BB2D522DF0DE500CAAA56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,8 @@
 				589BB2DA22DF0DE600CAAA56 /* Assets.xcassets */,
 				589BB2DC22DF0DE600CAAA56 /* LaunchScreen.storyboard */,
 				589BB2DF22DF0DE600CAAA56 /* Info.plist */,
+				589B092522FEB93A0045E17D /* Properties.playground */,
+				589B092422FD14C80045E17D /* StructuresAndClasses.playground */,
 				589BB2E522E01B0B00CAAA56 /* Base.playground */,
 				58FB9BDD22EEAE5A00FCF339 /* OperationalSymbol.playground */,
 				58FB9BE022EFDF6C00FCF339 /* CharactersAndStrings.playground */,
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WW465QJJW5;
+				DEVELOPMENT_TEAM = F29MNDM4PA;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WW465QJJW5;
+				DEVELOPMENT_TEAM = F29MNDM4PA;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
