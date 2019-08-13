@@ -9,23 +9,29 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    var a = 1
-    var b = 2
-    override func viewDidLoad() {
-        changeValue(value1:a,value2:b)
-        printValue()
-        
-    }
 
-    func changeValue(value1:Int,value2:Int){
-       // self.a = 2
-        let c = value1
-        a = value2
-        b = c
+    let string = "[{\"url_camp\":\"microduino\",\"isPeaple\":true,\"peapleCamera\":{\"delayTime\":-0.001,\"type\":\"emotion\"},\"platOrAnimal\":{\"delayTime\":-0.001}}]"
+    override func viewDidLoad() {
+       if let data = string.data(using: .utf8) {
+        var resultFromServer: Any?
+        resultFromServer = try! JSONSerialization.jsonObject(with: data, options: [])
+        if let respdict = resultFromServer as? [String : Any] {
+            //respone in dictionary format
+            print(respdict)
+        }
+            
+        else if let respArr = resultFromServer as? [Any]{
+            //response is array type
+            print("1111",respArr)
+        }
+            
+        else if let stringRespt = String(data: data, encoding: .utf8){
+            //resp is string
+            print(stringRespt)
+        }
     }
     
-    func printValue(){
-         print(a,b)
     }
+    
+    
 }
