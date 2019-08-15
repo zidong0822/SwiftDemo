@@ -259,3 +259,4 @@ struct Chessboard {
 //每当一个新的 Chessboard 实例被创建时，赋值闭包则会被执行，boardColors 的默认值会被计算出来并返回。
 let board = Chessboard()
 print(board.squareIsBlackAt(row: 0, column: 1))
+print(Double.pi/2)
