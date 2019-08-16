@@ -34,6 +34,7 @@
 		589BB2DD22DF0DE600CAAA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		589BB2DF22DF0DE600CAAA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		589BB2E522E01B0B00CAAA56 /* Base.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Base.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		58D91B9723069F4400ABA1CE /* ErrorHanding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHanding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58F42BD122F926BE00325D4E /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58F42BD222FA8E1C00325D4E /* GrandCentralDispatch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GrandCentralDispatch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58F42BD322FBD01400325D4E /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -94,6 +95,7 @@
 				5810C49E230255CE008A3E40 /* Initialization.playground */,
 				585E04D62304FAD600204AD2 /* Deinitialization.playground */,
 				585E04D72304FFF300204AD2 /* OptionalChaining.playground */,
+				58D91B9723069F4400ABA1CE /* ErrorHanding.playground */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
