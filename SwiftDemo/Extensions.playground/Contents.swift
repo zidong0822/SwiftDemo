@@ -60,6 +60,16 @@ extension Int {
     }
 }
 
+
+extension BinaryInteger {
+     func squared() -> Self {
+       return self * self
+    }
+}
+
+var someInteger = 3
+print(someInteger.squared())
+
 var someInt = 3
 someInt.square()
 print(someInt)
