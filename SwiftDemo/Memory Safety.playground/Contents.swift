@@ -88,3 +88,25 @@ someFunction()
 如果编译器无法保证访问的安全性，它就不会允许访问。
  
 */
+
+public class A {
+    fileprivate func someMethod() {
+        print("123")
+    }
+}
+
+public class B: A {
+    override public func someMethod() {
+        super.someMethod()
+    }
+}
+
+public class C {
+    func anotherMethod(){
+        A().someMethod()
+        //print("456")
+    }
+}
+C().anotherMethod()
+//
+//A().someMethod()
