@@ -41,6 +41,8 @@
 		58D91B9D230B992E00ABA1CE /* Protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58D91BB0230CE4C000ABA1CE /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58D91BC2230E369700ABA1CE /* AutomaticReferenceCounting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutomaticReferenceCounting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		58D91BD8230E8A4E00ABA1CE /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		58D91BD9230F882A00ABA1CE /* Memory Safety.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Memory Safety.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58F42BD122F926BE00325D4E /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58F42BD222FA8E1C00325D4E /* GrandCentralDispatch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GrandCentralDispatch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58F42BD322FBD01400325D4E /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -108,6 +110,8 @@
 				58D91B9D230B992E00ABA1CE /* Protocols.playground */,
 				58D91BB0230CE4C000ABA1CE /* Generics.playground */,
 				58D91BC2230E369700ABA1CE /* AutomaticReferenceCounting.playground */,
+				58D91BD8230E8A4E00ABA1CE /* Test.playground */,
+				58D91BD9230F882A00ABA1CE /* Memory Safety.playground */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
